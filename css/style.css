@@ -1,0 +1,254 @@
+a {text-decoration:none;color:#4F81A6; }
+a:hover {text-decoration:none; cursor:pointer; color:#0066DF;} 
+#content-area{margin:0 auto;width:940px;} 
+#divHeaderArea {background:#000000;margin:0 auto;}
+#divContentArea {background-image:url('/images/webbackgroundbg.gif');background-repeat:repeat-x;min-height:500px;}
+#header-area {margin:0 auto;width:940px;}
+#header-area .header-menu {overflow: hidden;clear:both; border-bottom:0px gray solid;}
+#header-menu-container{border:0px none; height:auto;overflow: hidden;background-color:#6c6c6c;}
+.header-menu-link-active {background-color:#ffffff;color:#000000;font-weight:bold;}
+.tab-menu{height:23px;border:0px red solid;}
+#logo-user-area {}
+#logo-user-area #site-logo{float:left;margin-left:5px;} #user-name{float:right;margin-right:5px;}
+ 
+
+ul {list-style: none; margin:0; padding:0;font-size:12px;list-style-type: none;}
+ul a { 
+	display: inline; 
+	text-decoration: none; 
+	font-size: 12px;
+	color: #ffffff; 
+	float:left;
+	text-align:center;
+        padding-top:5px;
+        padding-bottom:4px;
+	padding-left:13px;	
+	padding-right:15px;	
+	margin-top: 0px;
+	margin-left:0px;
+	margin-right:0px;
+        border-right:solid gray 1px;
+        height:18px
+}
+
+li {display: inline;}
+
+li.active a {background-color:#ffffff;color:#000000;font-weight:bold;}
+li a:hover {background-color:#ffffff;color:#000000;display: inline;}
+ 
+
+#content-data-area {background:#ffffff; margin:0 auto;border-right:1px solid #EAEAEA;border-bottom:1px solid #EAEAEA;border-left:1px solid #EAEAEA;width:938px;min-height:620px;}
+
+/* login and reset password -- RP=Reset Password */
+.content-login{margin:30px auto; width:400px;}
+.content-resetPassword{margin:30px auto; width:420px;}
+.resetPasswordTable{width:300px;}
+.tdwidthRP {width:210px;}
+
+.updateNewPasswordTable{width:398px;}
+
+table tr td {border: 0;}
+.divBox{background:#FCFCFC;}
+
+table tr th {border: 0;text-align:left;}
+
+table.content_table {border: 1px solid #EAEAEA; padding:2px 4px;}
+tr.headrow td {border:0;background-color:#AAAAAA;}
+tr.datarowEven td {border:0;text-align:left;background-color:#FFFDFB;}
+tr.datarowOdd td {border:0;text-align:left;background-color:#FFF7EF;}
+
+#nav-left-column{float:left;width:100px;border:0px red solid;margin:0px;padding:5px;}
+
+#content-column{padding-top:10px;width:880px;border:0px red solid; text-align:left;}
+#content-column-front{padding-top:10px;width:880px;border:0px red solid; text-align:left;}
+#content-column-back{padding-top:10px;width:880px;border:0px red solid; text-align:left;}
+
+#content-column .data-column-1{float:left;width:200px;border:0px green solid;}
+
+#content-column .data-column-2{float:left;width:677px;border:0px red solid;}
+#content-column .data-row-link{clear:both;float:none;border:0px blue solid;width:880px;margin-top: 5px;}
+
+#nav-right-column{float:left;width:100px;border:0px red solid;margin:5px 5px 0 0;}
+
+#nav-left-column-ul ul li a{ 
+	display: block; 
+	text-decoration: none; 
+	font-size: 14px;
+	color: #371C1C;  
+	width:130px;
+	text-align:left;background: #ffffff; padding:2px;color: #000;
+}
+
+#nav-left-column-ul ul li.active a {background-color:#ffffff;color:#000000;}
+
+
+#footer-area {font-size:10px; font-weight:bold;clear:both;height:20px;border:0px red solid;text-align:center;}
+
+.vAlignT { padding-top: 5px; vertical-align: top; }
+.HT56 {height:66px;}
+/* typography */
+#loginForm h3 { color:#000000; margin-top:0px; }
+#loginForm p { font-size:11px; }
+
+
+/* input field */
+#loginForm input {
+   /* border:1px solid #444; */
+    background-color:#FFFCFC;
+    padding:5px; 
+    font-size:12px; 
+}
+
+#loginForm input:focus { color:#000000; background-color:#FFFCFC; }
+#loginForm input:active { background-color:#f2f2f2; }
+
+
+.hide{display:none;}
+.leftmargin10px{margin-left:10px;}
+ 
+/* button */
+#loginForm button {
+    outline:0;
+    border:1px solid #666;
+}
+
+.formTable{width:600px;}
+.roleListView{width:550px;}
+.loginTable{width:380px;}
+
+.tdwidth{width:300px;}
+/* field label */
+label.error{  display:block; font: normal 12px arial; padding: 3px; margin: 3px; background-color: #ffc; border: 1px solid #c00;}
+/* common start */
+legend{color: #CC4706; font-size: 15px;font-weight: bold;}
+.datarowEven{background:#DDEAFF;}
+.datarowOdd{background:#F0F4F9;}
+.headrow{background:#EAEBE9;height:25px;}
+
+.alL {text-align:left;}
+.alR {text-align:right;}
+.alC {text-align:center;}
+
+.mrgL50 {margin-left:50px;}
+.mrgT2{margin-top:2px;}
+.margT10{margin-top:10px;}
+.margT50{margin-top:50px;}
+
+.paddingT10 {padding-top:10px;}
+.paddingAll10 {padding:10px;}
+
+.borderA1{border:1px solid #EAEAEA;}
+.pageTitle{color:#000000;font-size:15px;letter-spacing:1px;margin-bottom:5px;padding:5px 0;font-weight:bolder;}
+.tableTitle{color:#000000;font-size:12px;letter-spacing:1px;margin-bottom:5px;padding:5px 0;font-weight:bolder;}
+
+.errorMsg{color:red;}
+.successMsg{color:#008000;}
+.colorLink {color:#C35617 !important;}
+
+.showH{display:none;}
+.showD{display:block;}
+
+.showVH{display:none;}
+.showVD{display:inline;}
+
+.width350{width:350px;}
+.width400{width:400px;}
+.width600{width:600px;}
+.width920{width:920px;}
+.width100{width:100px;}
+.width83 {width:83px;}
+.width230{width:230px;}
+.width650{width:650px;}
+.width660{width:660px;}
+.width500{width:500px;}
+.width450{width:450px;}
+.width529{width:529px;}
+
+.label100width { display: block; width: 100px; }
+
+.padLeft5{padding-left:5px;}
+.padTop14{padding-top:14px;}
+.padTop17{padding-top:17px;}
+
+.height450{height:450px;}
+
+.clearBoth{clear:both;}
+
+.msg_status_waiting {
+    background-image: url(../images/ajax-loader.gif);
+    background-repeat: no-repeat;
+}
+
+.calculating {
+    background-image: url(../images/ajax-loader.gif);
+}
+
+.msgStatus{color:#CC4706; margin-left:5px;}
+
+#msgIdText{color:#CC4706; margin-left:20px;}
+
+#searchWaitId {background-image: url(../images/ajax-loader.gif); height:16px; width:16px;}
+.showWaitSearch {display:block; height:16px; width:16px;}
+.hideWaitSearch {display:none; height:16px; width:16px;}
+
+#retreivingIcon {background-image: url(../images/ajax-loader.gif); height:16px; width:16px;}
+.showretreivingicon {display:block; height:16px; width:16px;}
+.hideretreivingicon {display:none; height:16px; width:16px;}
+
+/* common end */
+
+.loggedAsUser{position:relative;top:-10px;color:#C81A00; font-size:12px;letter-spacing: 2px;float: right;margin-right: 5px;}
+
+/* Edit Roles start*/
+.editRoles{width:400px;border:1px #918A8A solid;}
+.editRoleCheckbox{width:80px;text-align:center;}
+.editRoleName{width:200px;text-align:left;}
+.editRoleDesc{width:170px;text-align:left;}
+.editRoleShowNameDesc{margin-left:100px;}
+/* Edit Roles end*/
+
+.allowedRight{width:80px !important;}
+
+/* color start*/
+.colorBlack{color:#000000;}
+.colorRed{color:red;}
+.colorY2{color:#4F4E4D;font-size:10px;}
+.colorGreen{color:green;}
+.colorWhite{color:#ffffff;}
+.colorInactive{color:#CC0000;}
+
+.bgcolorInactive{background-color:#f2f2f2;}
+/* color end*/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables row classes
+ */
+
+.row_selectedRule{
+    background-color:#C35617 !important; color:#ffffff !important;
+}
+.tableHeadrow{
+	background: none repeat scroll 0 0 #FFA500;
+    border-bottom: 1px solid black;
+    border-right: 1px solid;
+    cursor: pointer;
+    font-weight: bold;
+    height:22px;
+    padding: 3px 18px 3px 10px;
+}
+
+.checkboxSmall{
+    width: 20px !important;
+    height: 10px !important;
+}
+
+.rule_checkbox{
+    width: 20px !important;
+    height: 10px !important;
+}
+
+/* Users List View start*/
+.tableWidth580{width:580px;}
+.tableWidth680{width:680px;} 
+.tableWidth880{width:880px;} 
+/* Users List View end*/

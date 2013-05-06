@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+	<title>PHP - How to change local datetime to GMT and GMT to local datetime</title>
+	<!-- Css here -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<!-- Javascript here --> 
+	<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>   
+	<script type="text/javascript" src="js/phplocaldatetimetogmt.js"></script>   
+</head>
+
+<body>
+    
+<div class="header-menu">
+ 
+</div> 	 
+	<!-- End Header -->
+    </div> 
+    <div id="divContentArea">
+		<div id="content-area">
+			<!-- Start content-data-area -->  
+			<div id="content-data-area" align="center">
+				<!-- commented submenu
+				<div id="nav-left-column">
+					<div id="nav-left-column-ul">
+	                						</div>
+				</div>
+				-->
+	
+	 			<!-- Content start -->
+	             <form id="newtextcampaignform" action="/campaigns/campaigns/saveapp" method="post">
+	<div id="content-column">
+		<div class="pageTitle">Create App Campaign for consortium : Texas Consortium</div>
+		<a id='errorMsgIdanch' href='errorMsgIdanch'></a>
+		<div id="errorMsgId" class="colorRed"></div> 
+			<table cellpadding="0" cellspacing="8" class="borderA1">
+				<tr>
+					<td>Name:</td>
+					<td colspan='2'><input name="campaignname" id="campaignname" size="30" value=""/> <br/> <input type="hidden" id="searchPattern" name="searchPattern" value="all"/></td>
+				</tr> 
+				<tr>
+					<td>Schedule:</td>
+					<td colspan='2'><input id="campaignScheduleDateTimeId" name="campaignscheduledatetime" disabled="disabled"/><span style="border:0px blue solid;margin:2px 0 0 4px;position:relative;"><image src="/images/cicon2.jpg"/></span></td></td>
+				</tr>
+
+				<tr>
+					<td>Current Date Time & timezone :</td>
+					<td colspan='2'><label class="colorY2" id="campaignCreationDateTimeAndZoneId" name="campaign_createdatetime_local"></label>
+					</td>
+				</tr>  
+				<tr>
+					<td colspan='3' align="center"> <input type="submit" name="savedatetime" value="Save"/></td>
+				</tr>				
+			</table>
+			<input type="hidden" id="timezoneOffset" name="timezoneOffset" value=""/>
+			<input type="hidden" id="currentDateId" name="currentDateId" value=""/>
+			<input type="hidden" id="currentLocalDateTimeId" name="currentLocalDateTimeId" value=""/>
+	</div> 
+</form>				
+ 
+<script type="text/javascript"> 
+    $(document).ready(function(){
+		getGMTTimezoneOffset();
+	});
+</script> 
+		<!-- End footer-area  -->	 
+		</div>
+	</div>
+</body>
+</html>
