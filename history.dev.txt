@@ -1,0 +1,592 @@
+    
+ 1393  ls
+ 1394  sudo /etc/init.d/apache2 stop
+ 1395  sudo /etc/init.d/apache2 start
+ 1396  a2dissite portal.ssl 
+ 1397  sudo a2dissite portal.ssl 
+ 1398  sudo a2dissite default-ssl 
+ 1399  /etc/init.d/apache2 restart
+ 1400  exit
+ 1401  tail -f /var/log/apache2/error.log
+ 1402  tail -f /var/log/apache2/
+ 1403  cd /var/log/apache2/
+ 1404  ls
+ 1405  ls -tlr
+ 1406  cat portalssl-error.log
+ 1407  tail -f 
+ 1408  ls -tlr
+ 1409  tail -f error.log
+ 1410  ls -ltr
+ 1411  date
+ 1412  tail -f error.log
+ 1413  ls
+ 1414  ls -ltr
+ 1415  tail -f error.log
+ 1416  exit
+ 1417  cd /var/www/
+ 1418  ls
+ 1419  cd appsmyth-messi-new/
+ 1420  ls
+ 1421  cd franchise-uat/shell-scripts/
+ 1422  ls
+ 1423  ls -ltr
+ 1424  php imports-stores-into-partner.php 
+ 1425  clear
+ 1426  php imports-stores-into-partner.php 
+ 1427  exit
+ 1428  ssh root@108.171.173.5
+ 1429  cd franchise-uat/shell-scripts/
+ 1430  ls
+ 1431  ls -ltr
+ 1432  vim kernelsStore-text.csv 
+ 1433  clear
+ 1434  cd ..
+ 1435  ls
+ 1436  cd ..
+ 1437  ls
+ 1438  clear
+ 1439  ls
+ 1440  git status
+ 1441  git add franchise-uat/shell-scripts/imports-stores-into-partner.php
+ 1442  clear
+ 1443  ls
+ 1444  ls -ltr
+ 1445  ls
+ 1446  ls -ltr
+ 1447  git status
+ 1448  git add franchise-uat/shell-scripts/kernelsStore-text.csv
+ 1449  git status
+ 1450  rm franchise-uat/shell-scripts/tmp-test.txt franchise-uat/shell-scripts/tmp.txt
+ 1451  rm franchise-uat/shell-scripts/report-pushedmsg.txt
+ 1452  ls
+ 1453  ls -ltr
+ 1454  clear
+ 1455  ls
+ 1456  sudo /usr/bin/aptana-studio-3
+ 1457  cd /var/www/appsmyth-messi-new/
+ 1458  ls
+ 1459  cd franchise-uat/
+ 1460  ls
+ 1461  cd shell-scripts/
+ 1462  ls
+ 1463  ls -ltr
+ 1464  php imports-stores-into-partner.php 
+ 1465  grep -rin 'affe' *
+ 1466  ls
+ 1467  php imports-stores-into-partner.php 
+ 1468  ls -ltr
+ 1469  php imports-stores-into-partner.php > tmp.txt
+ 1470  php imports-stores-into-partner.php 
+ 1471  ls
+ 1472  ls -ltr
+ 1473  clear
+ 1474  ls
+ 1475  ls -ltr
+ 1476  php stores-relations-cloud.php
+ 1477  php imports-stores-into-partner.php > log.imports-stores-into-partner.txt
+ 1478  php imports-stores-into-partner.php > log2.imports-stores-into-partner.txt
+ 1479  php imports-stores-into-partner.php > log3.imports-stores-into-partner.txt
+ 1480  clear
+ 1481  ls
+ 1482  php imports-stores-into-partner.php > log3.imports-stores-into-partner.txt
+ 1483  clear
+ 1484  ls
+ 1485  php stores-relations-cloud.php 
+ 1486  php imports-stores-into-partner.php > log3.imports-stores-into-partner.txt
+ 1487  ls -ltr
+ 1488  exit
+ 1489  cd /var/www/
+ 1490  ls
+ 1491  cler
+ 1492  lclear
+ 1493  clear
+ 1494  ls
+ 1495  ssh root@108.171.173.5
+ 1496  clear
+ 1497  exit
+ 1498  ping smoothieking.test.appsmyth.com
+ 1499  exit
+ 1500  ssh root@108.171.173.5
+ 1501  exit
+ 1502  clear
+ 1503  ls
+ 1504  ssh root@108.171.173.5
+ 1505  exit
+ 1506  cd /var/www/more
+ 1507  ls
+ 1508  cd php-example/
+ 1509  ls
+ 1510  cd logs/
+ 1511  ls
+ 1512  php error_log.php 
+ 1513  exit
+ 1514  cd /var/log
+ 1515  ls
+ 1516  ls -ltr
+ 1517  /var/log/more/franchise-sql.log
+ 1518  tail -f /var/log/more/franchise-sql.log
+ 1519  ls
+ 1520  ls -ltr
+ 1521  mkdir more
+ 1522  sudo mkdir more
+ 1523  ls
+ 1524  cd more/
+ 1525  ls
+ 1526  touch ranchise-sql.log
+ 1527  sudo touch franchise-sql.log
+ 1528  ls 
+ 1529  ls -ltr
+ 1530  locate franchise-sql.log
+ 1531  updatedb
+ 1532  sudo updatedb
+ 1533  locate franchise-sql.log
+ 1534  ls
+ 1535  ls -ltr
+ 1536  chmod 777 franchise-sql.log 
+ 1537  sudo chmod 777 franchise-sql.log
+ 1538  ls -ltr
+ 1539  cat franchise-sql.log 
+ 1540  ls
+ 1541  clear
+ 1542  exit
+ 1543  cd franchise-uat/
+ 1544  clear
+ 1545  ls
+ 1546  find . -type f -name '*' -mmin 60
+ 1547  find . -type f -name '*' -mmin -60
+ 1548  grep -irn 'Confirm password does ' *
+ 1549  clear
+ 1550  ls
+ 1551  exit
+ 1552  cd /var/www/
+ 1553  cd appsmyth-
+ 1554  cd appsmyth-messi-new/
+ 1555  git status
+ 1556  git add franchise-uat/application/views/scripts/auth/activate.phtml franchise-uat/application/views/scripts/auth/resetpassword.phtml franchise-uat/public/js/franchise-user-resetpassword.js 
+ 1557  git add franchise-uat/application/controllers/AuthController.php
+ 1558  git status
+ 1559  git
+ 1560  git rm franchise-uat/shell-scripts/kernelsStore-text.csv
+ 1561  git status
+ 1562  git rm franchise-uat/shell-scripts/kernelsStore-text.csv
+ 1563  git rm -f franchise-uat/shell-scripts/kernelsStore-text.csv
+ 1564  git status
+ 1565  git reset HEAD franchise-uat/shell-scripts/imports-stores-into-partner.php 
+ 1566  git status
+ 1567  git commit -m "password does not match text changes"
+ 1568  git status
+ 1569  ls
+ 1570  git log
+ 1571  ls
+ 1572  git status
+ 1573  git add franchise-uat/shell-scripts/imports-stores-into-partner.php
+ 1574  git status
+ 1575  git add franchise-uat/shell-scripts/kernelsStore-text.csv
+ 1576  git commit -m "shellscript for import stores into partner"
+ 1577  git log
+ 1578  clear
+ 1579  ls
+ 1580  clear
+ 1581  dir
+ 1582  clear
+ 1583  exit
+ 1584  sudo /usr/bin/aptana-studio-3
+ 1585  clear
+ 1586  ls
+ 1587  cd /var/www/more/php-example/
+ 1588  ls
+ 1589  mkdir classes
+ 1590  cd classes/
+ 1591  ls
+ 1592  vim child.class.php
+ 1593  ls
+ 1594  php child.class.php 
+ 1595  clear
+ 1596  php child.class.php 
+ 1597  php -v
+ 1598  cd /var/www/
+ 1599  ls
+ 1600  cd appsmyth-messi-new/
+ 1601  ls
+ 1602  cd franchise-uat/
+ 1603  grep -irn 'getGMTTimezoneOffset' *
+ 1604  ls
+ 1605  exit
+ 1606  cd /var/www/appsmyth-messi-new/
+ 1607  ls
+ 1608  git status
+ 1609  git branch
+ 1610  git branch franchise-test
+ 1611  git branch
+ 1612  git checkout franchise-test 
+ 1613  git status
+ 1614  git log
+ 1615  git checkout master
+ 1616  git checkout franchise-test 
+ 1617  git checkout master
+ 1618  git push origin master
+ 1619  git status
+ 1620  git log
+ 1621  clear
+ 1622  dir
+ 1623  git checkout franchise-test 
+ 1624  sudo /usr/bin/aptana-studio-3
+ 1625  git status
+ 1626  git branch
+ 1627  git add franchise-uat/shell-scripts/docs-help/
+ 1628  git status
+ 1629  git commit -m "readme text added for git branch test"
+ 1630  git push origin franchise-test
+ 1631  ssh root@108.171.173.5
+ 1632  clear
+ 1633  ls
+ 1634  git status
+ 1635  git branch
+ 1636  git checkout r2_index
+ 1637  git branch
+ 1638  git merge master
+ 1639  git status
+ 1640  git push origin r2_index
+ 1641  git checkout master
+ 1642  git push origin master 
+ 1662  git branch
+ 1663  mkdir tmptest
+ 1664  cd tem
+ 1665  cd tmptest/
+ 1666  ls
+ 1667  git clone git@appsmyth.plan.io:appsmyth-messi-new.git
+ 1668  git status
+ 1669  ls
+ 1670  cd appsmyth-messi-new/
+ 1671  ls
+ 1672  git status
+ 1673  git branch
+ 1674  cd ..
+ 1675  ls
+ 1676  git status
+ 1677  git
+ 1678  git help clone 
+ 1679  ls
+ 1680  rm -rf appsmyth-messi-new
+ 1681  ls
+ 1682  git clone -b franchise-test git@appsmyth.plan.io:appsmyth-messi-new.git
+ 1683  ls
+ 1684  cd appsmyth-messi-new/
+ 1685  git branch
+ 1686  ls
+ 1687  cd franchise-uat/shell-scripts/docs-help/
+ 1688  ls
+ 1689  cat readme.docs.txt 
+ 1690  cd..
+ 1691  cd ..
+ 1692  ls
+ 1693  cd ..
+ 1694  ls
+ 1695  exit
+ 1696  cd /var/www/more/
+ 1697  ls
+ 1698  mkdir git-example
+ 1699  cd gitrepository/
+ 1700  ls
+ 1701  cd ..
+ 1702  clear
+ 1703  ls
+ 1704  vim /etc/gitconfig 
+ 1705  git config --list
+ 1706  list gitconfig
+ 1707  locate gitconfig
+ 1708  vim ~/.gitconfig
+ 1709  git config user.name
+ 1710  git config user.email
+ 1711  cat  ~/.gitconfig
+ 1712  git config color.ui
+ 1713  git config --global color.ui true
+ 1713  git config --global user.name "Dhananjay Sharma"
+ 1714  cat  ~/.gitconfig
+ 1715  git config --global user.email dsharma@appsmyth.com
+ 1716  cat  ~/.gitconfig
+ 1717  git config --global merge.tool vimdiff
+ 1718  cat  ~/.gitconfig
+ 1719  git config --list
+ 1720  git help
+ 1721  git help add
+ 1722  git help config
+ 1723  git branch
+ 1724  cd git-example/
+ 1725  ls
+ 1726  git init
+ 1727  ls
+ 1728  git status
+ 1729  ls -ltr
+ 1730  git branch
+ 1731  ls .h
+ 1732  ls .
+ 1733  ls -a
+ 1734  rm -rf *
+ 1735  git branch
+ 1736  git status
+ 1737  ls -a
+ 1738  cd .git/
+ 1739  ls
+ 1740  cd ..
+ 1741  clear
+ 1742  ls -ltr
+ 1743  ls -a
+ 1744  git help
+ 1745  git update-ref -d HEAD
+ 1746  git -a
+ 1747  ls -a
+ 1748  git status
+ 1749  rm -rf .git
+ 1750  ls -a
+ 1751  clear
+ 1752  git status
+ 1753  git init phplocaltimetogmt
+ 1754  ls
+ 1755  cd phplocaltimetogmt/
+ 1756  ls
+ 1757  git status
+ 1758  cd ..
+ 1759  ls
+ 1760  ras
+ 1761  clear
+ 1762  ls
+ 1763  git remote -v
+ 1764  git mergetool
+ 1765  cd phplocaltimetogmt/
+ 1766  git mergetool
+ 1767  ls
+ 1768  vim readme.txt
+ 1769  git status
+ 1770  git add .
+ 1771  git commit -m "Readme localdate to GMT"
+ 1772  git log
+ 1773  cd ..
+ 1774  mkdir sshkeyfiles
+ 1775  cd sshkeyfiles/
+ 1776  cd ~/.ssh
+ 1777  ls
+ 1778  ls -ltr
+ 1779  cat known_hosts 
+ 1780  cls
+ 1781  ls
+ 1782  ls -ltr
+ 1783  cd /var/www/more/git-example/
+ 1784  ls
+ 1785  cd sshkeyfiles/
+ 1786  ls
+ 1787  ssh-keygen -t rsa -C "dsharma@appsmyth.com"
+ 1788  ls
+ 1789  ls -ltr
+ 1790  cat git mergetool
+ 1791  cat dsharma06may13.pub
+ 1792  vim dsharma06may13.pub
+ 1793  cd ..
+ 1794  ls
+ 1795  cd phplocaltimetogmt/
+ 1796  git remote add origin git@github.com:dhananjayksharma/phplocaldatetimetoGMT.git
+ 1797  git push -u origin master
+ 1798  git push origin master
+ 1799  ls
+ 1800  ls -lt
+ 1801  ls -ltr
+ 1802  cd ..
+ 1803  ls
+ 1804  ls -ltr
+ 1805  git status
+ 1806  cd phplocaltimetogmt/
+ 1807  ls
+ 1808  git status
+ 1809  git log
+ 1810  cd ..
+ 1811  cd phplocaltimetogmt/
+ 1812  ls
+ 1813  git remote add origin git@github.com:dhananjayksharma/phplocaldatetimetoGMT.git
+ 1814  git push -u origin master
+ 1815  cd ..
+ 1816  ls
+ 1817  cd sshkeyfiles/
+ 1818  ls
+ 1819  cp * ~/.ssh/
+ 1820  cd ~/.ssh
+ 1821  ls
+ 1822  cd /var/www/more/git-example/
+ 1823  ls
+ 1824  cd phplocaltimetogmt/
+ 1825  ls
+ 1826  git push -u origin master
+ 1827  ls
+ 1828  clear
+ 1829  git branch
+ 1830  ls
+ 1831  clear
+ 1832  dit
+ 1833  git status
+ 1834  git add .
+ 1835  ls
+ 1836  git add .
+ 1837  git status
+ 1838  git commit -m "aded css js index library files"
+ 1839  clear
+ 1840  ls
+ 1841  dirt
+ 1842  dir
+ 1843  clear
+ 1844  dir
+ 1845  clear
+ 1846  dir
+ 1847  git status
+ 1848  git log
+ 1849  git push -u origin master
+ 1850  git branch
+ 1851  git branch r2_index
+ 1852  git status
+ 1853  git branch
+ 1854  git checkout r2_index
+ 1855  git branch
+ 1856  ls
+ 1857  git branch
+ 1858  clear
+ 1859  git branch
+ 1860  git status
+ 1861  ls
+ 1862  git branch
+ 1863  git log
+ 1864  clear
+ 1865  ls
+ 1866  git status
+ 1867  vim index.html 
+ 1868  ls
+ 1869  git status
+ 1870  git add .
+ 1871  git status
+ 1872  git commit -m "index with timezone text "
+ 1873  git status
+ 1874  git push origin r2_index
+ 1875  git checkout master
+ 1876  git branch
+ 1877  git status
+ 1878  git add .
+ 1879  git commit -m "country added into index"
+ 1880  git status
+ 1881  git push origin master
+ 1882  git branch
+ 1883  clear
+ 1884  exit
+ 1885  clear
+ 1886  dir
+ 1887  ls -ltr
+ 1888  rm BrightcoveOS-PHP-MAPI-Wrapper-2.0.4-5-g6e2cacb\ \(1\).zip 
+ 1889  ls
+ 1890  ls -ltr
+ 1891  rm Screen\ shot\ 2012-11-23\ at\ 10.08.05\ AM.png 
+ 1892  ls
+ 1893  ls -ltr
+ 1894  rm register-rischluther-148-store434-org.csv 
+ 1895  ls
+ 1896  ls -ltr
+ 1897  rm enablin_Genius.zip 
+ 1898  ls
+ 1899  clear
+ 1900  ls
+ 1901  clear
+ 1902  ssh root@198.61.233.52
+ 1903  exit
+ 1904  ssh root@108.171.173.5
+ 1905  exit
+ 1906  ssh root@50.56.29.149
+ 1907  ssh root@108.171.173.5
+ 1908  exit
+ 1909  cd ~/.
+ 1910  ls
+ 1911  cd /
+ 1912  ls
+ 1913  clear
+ 1914  locate ssh
+ 1915  locate .ssh/id_rsa.pub
+ 1916  cd `
+ 1917  c
+ 1918  q
+ 1919  cd ~/.
+ 1920  ls
+ 1921  cd /home/volition
+ 1922  locate .ssh/id_rsa.pub
+ 1923  cd .ssh/
+ 1924  ls
+ 1925  ls -ltr
+ 1926  cat known_hosts 
+ 1927  ls -ltr
+ 1928  clear
+ 1929  cd /var/www/
+ 1930  ls
+ 1931  tail -f /var/log/apache2/franchise-error.log 
+ 1932  tail -f /var/log/apache2/franchise-uat-error.log
+ 1933  cat /etc/apache2/sites-available/kernels.dev.appsmyth.com 
+ 1934  tail -f /var/log/apache2/franchise-uat-new-error.log
+ 1935  exit
+ 1936  cd /var/www/more/ssldir/
+ 1937  ls
+ 1938  cd portalssl/
+ 1939  ls
+ 1940  ls 
+ 1941  ls -lt
+ 1942  openssl genrsa -des3 -out server.key 1024
+ 1943  ls
+ 1944  ls -ltr
+ 1945  openssl genrsa -des3 -out server.key 1024
+ 1946  ls
+ 1947  ls -ltr
+ 1948  cat server.key 
+ 1949  ls
+ 1950  ls -ltr
+ 1951  history
+ 1952  ls
+ 1953  cat server.csr 
+ 1954  openssl genrsa -des3 -out ca.key 1024
+ 1955  ls -ltr
+ 1956  openssl genrsa -des3 -out ca.key 1024
+ 1957  ls
+ 1958  ls -ltr
+ 1959  cat ca.key 
+ 1960  openssl req -new -x509 -days 365 -key ca.key -out ca.crt
+ 1961  ls -lt
+ 1962  ls -ltr
+ 1963  locate sign.sh
+ 1964  updatedb
+ 1965  sudo updatedb
+ 1966  updatedb
+ 1967  locate sign.sh
+ 1968  exit
+ 1969  cd /etc/apache2/sites-available/
+ 1970  ls
+ 1971  cat portal.ssl 
+ 1972  exit
+ 1973  sudo apt-get install openjdk-7-jdk
+ 1974  exit
+ 1975  java
+ 1976  java -version
+ 1977  cat /proc/version
+ 1978  cat /proc/cpuinfo 
+ 1979  cat /proc/cpuinfo | grep 64
+ 1980  exit
+ 1981  uname -a
+ 1982  grep flags /proc/cpuinfo
+ 1983  clear
+ 1984  grep flags /proc/cpuinfo
+ 1985  uname -m
+ 1986  uname
+ 1987  uname -help
+ 1988  uname -h
+ 1989  uname help
+ 1990  uname --help
+ 1991  uname -p
+ 1992  uname -m
+ 1993  clear
+ 1994  sudo apt-get install openjdk-7-jre
+ 1995  exit
+ 1996  sudo apt-get install openjdk-7-jre
+ 1997  sudo apt-get install ia32-libs
+ 1998  java -version
+ 1999  exit
+ 2000  history
+ 2001  history > history.dev.txt

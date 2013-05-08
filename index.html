@@ -1,89 +1,67 @@
 <!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
-	<title>PHP - How to change local datetime to GMT and GMT to local datetime</title>
-	<!-- Css here -->
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
-	<!-- Javascript here --> 
-	<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>   
-	<script type="text/javascript" src="js/phplocaldatetimetogmt.js"></script>   
-</head>
-
-<body>
-    
-<div class="header-menu">
-	this line is added by dhananjayksharma@gmail.com --- on qa server
-
-	this line is added by dhananjayksharma@gmail.com --- on qa server --- 2nd line
-</div> 	 
-	<!-- End Header -->
-    </div> 
-    <div id="divContentArea">
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+		<title>PHP - How to change local datetime to GMT and GMT to local datetime</title>
+		<!-- Css here -->
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="css/jquery-ui/black-tie/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css" media="screen" />
+		<!-- Javascript here --> 
+		<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>   
+		<script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>   
+		<script type="text/javascript" src="js/jquery-ui-timepicker-addon.js"></script>   
+		<script type="text/javascript" src="js/phplocaldatetimetogmt.js"></script>   
+	</head>
+	<body>
 		<div id="content-area">
-			<!-- Start content-data-area -->  
+			<!-- Start content-data-area -->
 			<div id="content-data-area" align="center">
-				<!-- commented submenu
-				<div id="nav-left-column">
-					<div id="nav-left-column-ul">
-	                						</div>
-				</div>
-				-->
-	
-	 			<!-- Content start -->
-	             <form id="newtextcampaignform" action="/campaigns/campaigns/saveapp" method="post">
-	<div id="content-column">
-		<div class="pageTitle">Create App Campaign for consortium : Texas Consortium</div>
-		<a id='errorMsgIdanch' href='errorMsgIdanch'></a>
-		<div id="errorMsgId" class="colorRed"></div> 
-			<table cellpadding="0" cellspacing="8" class="borderA1">
-				<tr>
-					<td>Name:</td>
-					<td colspan='2'><input name="campaignname" id="campaignname" size="30" value=""/> <br/> <input type="hidden" id="searchPattern" name="searchPattern" value="all"/></td>
-				</tr> 
-				<tr>
-					<td>Country:</td>
-					<td colspan='2'>
-						<select name="country" id="country">
-							<option name="india">India</option>
-							<option name="usa">USA</option>
-							<option name="uk">UK</option>
-							<option name="German">German</option>
-						</select>
-					</td>
-				</tr> 				
-				<tr>
-					<td>Schedule:</td>
-					<td colspan='2'><input id="campaignScheduleDateTimeId" name="campaignscheduledatetime" disabled="disabled"/><span style="border:0px blue solid;margin:2px 0 0 4px;position:relative;"><image src="/images/cicon2.jpg"/></span></td></td>
-				</tr>
-
-				<tr>
-					<td>Current Date Time & timezone :</td>
-					<td colspan='2'><label class="colorY2" id="campaignCreationDateTimeAndZoneId" name="campaign_createdatetime_local"></label>
-					</td>
-				</tr>  
-				<tr>
-					<td>Show TimeZoneOffSet</td>
-					<td colspan='2'><span id="show_timezone_Offset">Show time zone offset here</span>
-					</td>
-				</tr>  				
-				<tr>
-					<td colspan='3' align="center"> <input type="submit" name="savedatetime" value="Save"/></td>
-				</tr>				
-			</table>
-			<input type="hidden" id="timezoneOffset" name="timezoneOffset" value=""/>
-			<input type="hidden" id="currentDateId" name="currentDateId" value=""/>
-			<input type="hidden" id="currentLocalDateTimeId" name="currentLocalDateTimeId" value=""/>
-	</div> 
-</form>				
- 
-<script type="text/javascript"> 
-    $(document).ready(function(){
-		getGMTTimezoneOffset();
-	});
-</script> 
-		<!-- End footer-area  -->	 
+				<!-- Content start -->
+				<form id="newtextcampaignform" action="save.php" method="post">
+					<div id="content-column">
+						<div class="pageTitle">Add new track </div>
+						<a id='errorMsgIdanch' href='errorMsgIdanch'></a>
+						<div id="errorMsgId" class="colorRed"></div> 
+							<table cellpadding="0" cellspacing="8" class="borderA1">
+								<tr>
+									<td>Name:</td>
+									<td colspan='2'><input name="campaignname" id="campaignname" size="30" value=""/> <br/> <input type="hidden" id="searchPattern" name="searchPattern" value="all"/></td>
+								</tr> 
+								<tr>
+									<td>Country:</td>
+									<td colspan='2'>
+										<select name="country" id="country">
+											<option name="india">India</option>
+											<option name="usa">USA</option>
+											<option name="uk">UK</option>
+											<option name="German">German</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>Date:</td>
+									<td colspan='2'><input id="campaignscheduledatetimeId" name="campaignscheduledatetimeId"/><span style="border:0px blue solid;margin:2px 0 0 4px;position:relative;"><image src="images/cicon2.jpg"/></span></td></td>
+								</tr> 
+								<tr>
+									<td>Current Date Time & timezone :</td>
+									<td colspan='2'><label class="colorY2" id="campaignCreationDateTimeAndZoneId" name="campaign_createdatetime_local"></label></td>
+								</tr>
+								<tr>
+									<td colspan='3' align="center"> <input type="submit" name="savedatetime" value="Save"/></td>
+								</tr>
+							</table>
+							<input type="hidden" id="timezoneOffset" name="timezoneOffset" value=""/>
+							<input type="hidden" id="currentDateId" name="currentDateId" value=""/>
+							<input type="hidden" id="currentLocalDateTimeId" name="currentLocalDateTimeId" value=""/>
+					</div>
+				</form> 
+				<script type="text/javascript"> 
+					$(document).ready(function(){
+						getGMTTimezoneOffset();
+					});
+				</script>
+				<!-- End footer-area  -->
+			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>

@@ -1,3 +1,8 @@
+$(document).ready(function(){
+	var currentTime = getLocalDateTimewithTimezone(getCurrentDateTime());
+	$("#campaignscheduledatetimeId").datetimepicker({ minDate:0});
+});
+
 function showError(errShowId, errInId, errMsg){ 
 	try{
 		$('#'+errShowId).html(errMsg);
@@ -103,14 +108,17 @@ function getLocalDateTimewithTimezone(dateTime){
     
 function getGMTTimezoneOffset(){
     var current_date = new Date();
-	var gmt_offset = current_date.getTimezoneOffset( ) / 60; 
+	var gmt_offset = current_date.getTimezoneOffset( ) / 60;
+	var currentTime = getLocalDateTimewithTimezone(getCurrentDateTime());
+		
 	try{
-		document.getElementById('timezoneOffset').value = gmt_offset; 
+		$("#timezoneOffset").value = gmt_offset; 
 	}
 	catch (err){
 		
 	}
-	
-	document.getElementById('currentDateId').value = getCurrentDate();
+
+	$("#campaignCreationDateTimeAndZoneId").text(currentTime);
+	$("#currentDateId").value = getCurrentDate();
 }
 
